@@ -16,7 +16,7 @@ if (!defined('API')):
 endif;
 
 require_once API.'/vendor/autoload.php';
-require_once API.'/app/Util.php';
+require_once API.'/App/Util.php';
 use App\Config;
 
 if (isset(Config::$api_config) && isset(Config::$api_config['display_errors'])) {

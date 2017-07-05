@@ -66,7 +66,7 @@ class Loader
                 $this->BootDatabase();
             }
 
-            require_once API.'/app/Routes.php';
+            require_once API.'/App/Routes.php';
             $router->dispatch();
         } catch (Exception $e) {
             $data = new ApiException($e->getMessage(), $e->getCode(),
