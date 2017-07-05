@@ -1,0 +1,22 @@
+{
+    "name": "grafikamos/simple-phpapi",
+    "version": "0.1",
+    "license": "MIT",
+    "type": "project",
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modelo\\": "Modelos/",
+            "Controlador\\": "Controladores/",
+            "App\\": "App/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/database": "^5.2",
+        "illuminate/events": "^5.2",
+        "miladrahimi/phprouter": "^2.3"
+    }
+}
