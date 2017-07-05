@@ -9,6 +9,10 @@
   |
  */
 
+if (!defined('API')):
+    die('Nothing to do here ._.');
+endif;
+
 /**
  * Print preformatted
  * @param mixed $var -> Variable to print

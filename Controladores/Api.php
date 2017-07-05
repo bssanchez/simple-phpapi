@@ -2,6 +2,10 @@
 
 namespace Controlador;
 
+if (!defined('API')):
+    die('Nothing to do here ._.');
+endif;
+
 class Api
 {
     public function PruebaControlador()

@@ -8,6 +8,9 @@
   | all routes mapping of the API: https://github.com/miladrahimi/phprouter
   |
  */
+if (!defined('API')):
+    die('Nothing to do here ._.');
+endif;
 
 
 $router->get("/", function () {
