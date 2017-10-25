@@ -82,7 +82,7 @@ class Vista extends Tpl
         $lmod = file_exists(API.'/app/lenguaje/'.$this->lang.'/'.$this->controlador.'.yml')
                 ? Spyc::YAMLLoad(API.'/app/lenguaje/'.$this->lang.'/'.$this->controlador.'.yml')
                 : array();
-        $lapp = file_exists(API.'/app/lenguaje/'.$this->lang.'/global.yml') ? Spyc::YAMLLoad(API.'/app/lenguaje/'.$this->lang.'/app.yml')
+        $lapp = file_exists(API.'/app/lenguaje/'.$this->lang.'/app.yml') ? Spyc::YAMLLoad(API.'/app/lenguaje/'.$this->lang.'/app.yml')
                 : array();
 
         $this->assign('controlador', $this->controlador);
