@@ -55,7 +55,7 @@ function __V($var, $exit = true)
  */
 function redirect($path, $with = null)
 {
-    $url = App\Config::get('api_config.url_front');
+    $url = System\Config::get('api_config.url_front');
     $url = rtrim($url, '/');
 
     $_SESSION['with'] = $with;
