@@ -1,0 +1,16 @@
+database_config:
+  driver: 'mysql'
+  host: 'localhost'
+  database: ''
+  username: ''
+  password: ''
+  charset: 'utf8'
+  collation: 'utf8_unicode_ci'
+  prefix: ''
+api_config:
+  display_errors: 'On'
+  error_reporting: 1
+  base_uri: '/Grafikamos/gk-system/public'
+  url_front: 'http://localhost/Grafikamos/gk-system/public'
+secure:
+  salthash: 'BC98XCzY5d67dsafyuoyupvpvVC7'

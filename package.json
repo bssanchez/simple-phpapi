@@ -1,0 +1,23 @@
+{
+  "name": "simple-php-api",
+  "version": "1.0.0",
+  "description": "Estructura inicial de proyectos front-end con jquery y bootstrap + gulp",
+  "author": "Grafikamos",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "concurrently": "*",
+    "gulp": "*",
+    "gulp-npm-files": "*",
+    "gulp-postcss": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "node-sass": "*",
+    "gulp-clean": "*"
+  },
+  "dependencies": {
+    
+  }
+}

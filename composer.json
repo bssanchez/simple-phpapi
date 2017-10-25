@@ -1,6 +1,6 @@
 {
-    "name": "grafikamos/simple-phpapi",
-    "version": "0.1",
+    "name": "grafikamos/simple-php-api",
+    "version": "1.0",
     "license": "MIT",
     "type": "project",
     "config": {
@@ -8,15 +8,20 @@
     },
     "autoload": {
         "psr-4": {
-            "Modelo\\": "Modelos/",
-            "Controlador\\": "Controladores/",
-            "App\\": "App/"
+            "Modelo\\": "app/modelos/",
+            "Controlador\\": "app/controladores/",
+            "App\\": "app/",
+            "System\\": "system/"
         }
     },
     "require": {
         "php": ">=5.5.0",
         "illuminate/database": "^5.2",
         "illuminate/events": "^5.2",
-        "miladrahimi/phprouter": "^2.3"
+        "miladrahimi/phprouter": "^2.3",
+        "rain/raintpl": "^3.1",
+        "mustangostang/spyc": "^0.6.2",
+        "phpmailer/phpmailer": "^5.2",
+        "symfony/var-dumper": "^3.3"
     }
 }
