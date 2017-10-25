@@ -186,3 +186,4 @@ public/assets/css/**/*
 !public/assets/css/index.html
 public/assets/js/**/*
 !public/assets/js/index.html
+public/assets/node_modules/
